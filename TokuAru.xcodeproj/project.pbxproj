@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61411122AFA921800BA63DB /* TokuAruApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61411112AFA921800BA63DB /* TokuAruApp.swift */; };
+		B61411142AFA921800BA63DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61411132AFA921800BA63DB /* ContentView.swift */; };
+		B61411162AFA921900BA63DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61411152AFA921900BA63DB /* Assets.xcassets */; };
+		B61411192AFA921900BA63DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61411182AFA921900BA63DB /* Preview Assets.xcassets */; };
+		B614111B2AFA921900BA63DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B614111A2AFA921900BA63DB /* Persistence.swift */; };
+		B614111E2AFA921900BA63DB /* TokuAru.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B614111C2AFA921900BA63DB /* TokuAru.xcdatamodeld */; };
+		B61411282AFA921A00BA63DB /* TokuAruTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61411272AFA921A00BA63DB /* TokuAruTests.swift */; };
+		B61411322AFA921A00BA63DB /* TokuAruUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61411312AFA921A00BA63DB /* TokuAruUITests.swift */; };
+		B61411342AFA921A00BA63DB /* TokuAruUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61411332AFA921A00BA63DB /* TokuAruUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61411242AFA921A00BA63DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61411062AFA921800BA63DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B614110D2AFA921800BA63DB;
+			remoteInfo = TokuAru;
+		};
+		B614112E2AFA921A00BA63DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61411062AFA921800BA63DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B614110D2AFA921800BA63DB;
+			remoteInfo = TokuAru;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B614110E2AFA921800BA63DB /* TokuAru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokuAru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61411112AFA921800BA63DB /* TokuAruApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokuAruApp.swift; sourceTree = "<group>"; };
+		B61411132AFA921800BA63DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B61411152AFA921900BA63DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61411182AFA921900BA63DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B614111A2AFA921900BA63DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		B614111D2AFA921900BA63DB /* TokuAru.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TokuAru.xcdatamodel; sourceTree = "<group>"; };
+		B61411232AFA921A00BA63DB /* TokuAruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokuAruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61411272AFA921A00BA63DB /* TokuAruTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokuAruTests.swift; sourceTree = "<group>"; };
+		B614112D2AFA921A00BA63DB /* TokuAruUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokuAruUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61411312AFA921A00BA63DB /* TokuAruUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokuAruUITests.swift; sourceTree = "<group>"; };
+		B61411332AFA921A00BA63DB /* TokuAruUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokuAruUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B614110B2AFA921800BA63DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61411202AFA921A00BA63DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B614112A2AFA921A00BA63DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61411052AFA921800BA63DB = {
+			isa = PBXGroup;
+			children = (
+				B61411102AFA921800BA63DB /* TokuAru */,
+				B61411262AFA921A00BA63DB /* TokuAruTests */,
+				B61411302AFA921A00BA63DB /* TokuAruUITests */,
+				B614110F2AFA921800BA63DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B614110F2AFA921800BA63DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B614110E2AFA921800BA63DB /* TokuAru.app */,
+				B61411232AFA921A00BA63DB /* TokuAruTests.xctest */,
+				B614112D2AFA921A00BA63DB /* TokuAruUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61411102AFA921800BA63DB /* TokuAru */ = {
+			isa = PBXGroup;
+			children = (
+				B61411112AFA921800BA63DB /* TokuAruApp.swift */,
+				B61411132AFA921800BA63DB /* ContentView.swift */,
+				B61411152AFA921900BA63DB /* Assets.xcassets */,
+				B614111A2AFA921900BA63DB /* Persistence.swift */,
+				B614111C2AFA921900BA63DB /* TokuAru.xcdatamodeld */,
+				B61411172AFA921900BA63DB /* Preview Content */,
+			);
+			path = TokuAru;
+			sourceTree = "<group>";
+		};
+		B61411172AFA921900BA63DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B61411182AFA921900BA63DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B61411262AFA921A00BA63DB /* TokuAruTests */ = {
+			isa = PBXGroup;
+			children = (
+				B61411272AFA921A00BA63DB /* TokuAruTests.swift */,
+			);
+			path = TokuAruTests;
+			sourceTree = "<group>";
+		};
+		B61411302AFA921A00BA63DB /* TokuAruUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B61411312AFA921A00BA63DB /* TokuAruUITests.swift */,
+				B61411332AFA921A00BA63DB /* TokuAruUITestsLaunchTests.swift */,
+			);
+			path = TokuAruUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B614110D2AFA921800BA63DB /* TokuAru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61411372AFA921A00BA63DB /* Build configuration list for PBXNativeTarget "TokuAru" */;
+			buildPhases = (
+				B614110A2AFA921800BA63DB /* Sources */,
+				B614110B2AFA921800BA63DB /* Frameworks */,
+				B614110C2AFA921800BA63DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokuAru;
+			productName = TokuAru;
+			productReference = B614110E2AFA921800BA63DB /* TokuAru.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B61411222AFA921A00BA63DB /* TokuAruTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B614113A2AFA921A00BA63DB /* Build configuration list for PBXNativeTarget "TokuAruTests" */;
+			buildPhases = (
+				B614111F2AFA921A00BA63DB /* Sources */,
+				B61411202AFA921A00BA63DB /* Frameworks */,
+				B61411212AFA921A00BA63DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61411252AFA921A00BA63DB /* PBXTargetDependency */,
+			);
+			name = TokuAruTests;
+			productName = TokuAruTests;
+			productReference = B61411232AFA921A00BA63DB /* TokuAruTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B614112C2AFA921A00BA63DB /* TokuAruUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B614113D2AFA921A00BA63DB /* Build configuration list for PBXNativeTarget "TokuAruUITests" */;
+			buildPhases = (
+				B61411292AFA921A00BA63DB /* Sources */,
+				B614112A2AFA921A00BA63DB /* Frameworks */,
+				B614112B2AFA921A00BA63DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B614112F2AFA921A00BA63DB /* PBXTargetDependency */,
+			);
+			name = TokuAruUITests;
+			productName = TokuAruUITests;
+			productReference = B614112D2AFA921A00BA63DB /* TokuAruUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61411062AFA921800BA63DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B614110D2AFA921800BA63DB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B61411222AFA921A00BA63DB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B614110D2AFA921800BA63DB;
+					};
+					B614112C2AFA921A00BA63DB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B614110D2AFA921800BA63DB;
+					};
+				};
+			};
+			buildConfigurationList = B61411092AFA921800BA63DB /* Build configuration list for PBXProject "TokuAru" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61411052AFA921800BA63DB;
+			productRefGroup = B614110F2AFA921800BA63DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B614110D2AFA921800BA63DB /* TokuAru */,
+				B61411222AFA921A00BA63DB /* TokuAruTests */,
+				B614112C2AFA921A00BA63DB /* TokuAruUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B614110C2AFA921800BA63DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61411192AFA921900BA63DB /* Preview Assets.xcassets in Resources */,
+				B61411162AFA921900BA63DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61411212AFA921A00BA63DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B614112B2AFA921A00BA63DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B614110A2AFA921800BA63DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B614111B2AFA921900BA63DB /* Persistence.swift in Sources */,
+				B61411142AFA921800BA63DB /* ContentView.swift in Sources */,
+				B61411122AFA921800BA63DB /* TokuAruApp.swift in Sources */,
+				B614111E2AFA921900BA63DB /* TokuAru.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B614111F2AFA921A00BA63DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61411282AFA921A00BA63DB /* TokuAruTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61411292AFA921A00BA63DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61411342AFA921A00BA63DB /* TokuAruUITestsLaunchTests.swift in Sources */,
+				B61411322AFA921A00BA63DB /* TokuAruUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B61411252AFA921A00BA63DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B614110D2AFA921800BA63DB /* TokuAru */;
+			targetProxy = B61411242AFA921A00BA63DB /* PBXContainerItemProxy */;
+		};
+		B614112F2AFA921A00BA63DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B614110D2AFA921800BA63DB /* TokuAru */;
+			targetProxy = B614112E2AFA921A00BA63DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B61411352AFA921A00BA63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B61411362AFA921A00BA63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B61411382AFA921A00BA63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokuAru/Preview Content\"";
+				DEVELOPMENT_TEAM = A8Z7T6U84C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linne.com.TokuAru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B61411392AFA921A00BA63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokuAru/Preview Content\"";
+				DEVELOPMENT_TEAM = A8Z7T6U84C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linne.com.TokuAru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B614113B2AFA921A00BA63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8Z7T6U84C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linne.com.TokuAruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokuAru.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokuAru";
+			};
+			name = Debug;
+		};
+		B614113C2AFA921A00BA63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8Z7T6U84C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linne.com.TokuAruTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokuAru.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokuAru";
+			};
+			name = Release;
+		};
+		B614113E2AFA921A00BA63DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8Z7T6U84C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linne.com.TokuAruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokuAru;
+			};
+			name = Debug;
+		};
+		B614113F2AFA921A00BA63DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8Z7T6U84C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linne.com.TokuAruUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokuAru;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61411092AFA921800BA63DB /* Build configuration list for PBXProject "TokuAru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61411352AFA921A00BA63DB /* Debug */,
+				B61411362AFA921A00BA63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61411372AFA921A00BA63DB /* Build configuration list for PBXNativeTarget "TokuAru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61411382AFA921A00BA63DB /* Debug */,
+				B61411392AFA921A00BA63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B614113A2AFA921A00BA63DB /* Build configuration list for PBXNativeTarget "TokuAruTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B614113B2AFA921A00BA63DB /* Debug */,
+				B614113C2AFA921A00BA63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B614113D2AFA921A00BA63DB /* Build configuration list for PBXNativeTarget "TokuAruUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B614113E2AFA921A00BA63DB /* Debug */,
+				B614113F2AFA921A00BA63DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B614111C2AFA921900BA63DB /* TokuAru.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B614111D2AFA921900BA63DB /* TokuAru.xcdatamodel */,
+			);
+			currentVersion = B614111D2AFA921900BA63DB /* TokuAru.xcdatamodel */;
+			path = TokuAru.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B61411062AFA921800BA63DB /* Project object */;
+}
